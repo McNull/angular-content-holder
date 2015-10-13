@@ -1,0 +1,24 @@
+<div class="container" ng-controller="AppController1 as vm">
+  
+  <form class="form">
+    <div class="form-group">
+      <label>My Input Value</label>
+      <input class="form-control" ng-model="vm.myInputValue">
+    </div>
+    
+    <div class="form-group">
+      <label>My Second Input Value</label>
+      <input class="form-control" ng-model="vm.mySecondInputValue">
+    </div>
+      
+  </form>
+  
+  <div content-holder="view1">
+    <pre><code>vm.myInputValue = {{ vm.myInputValue | json }}</code></pre>   
+  </div>
+  
+  <div content-holder="view2">
+    <pre><code>vm.mySecondInputValue = {{ vm.mySecondInputValue | json }}</code></pre>   
+  </div>
+  
+</div>
