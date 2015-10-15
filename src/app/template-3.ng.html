@@ -1,7 +1,14 @@
-<!--<div class="container" ng-controller="AppController3 as vm">
+<div class="container" ng-controller="AppController3 as vm">
   
   <div content-holder="view1">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corrupti deserunt praesentium incidunt autem, corporis cupiditate alias aspernatur ducimus magnam nesciunt dignissimos. Nesciunt fugiat deleniti vitae. Asperiores ratione dicta saepe.</p>
+    <pre><code>createdAt = {{ vm.createdAt | json }};</code></pre>  
   </div>
   
-</div>-->
+  <pre><code>search = {{ vm.search | json }};</code></pre>
+  <pre><code>createdAt = {{ vm.createdAt | json }};</code></pre>
+  
+  <ul>
+    <li ng-repeat="link in vm.links"><a ng-href="#{{ link }}">{{ link }}</a></li>
+  </ul>
+    
+</div>
