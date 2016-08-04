@@ -2,13 +2,13 @@
   "name": "angular-content-holder",
   "version": "0.0.1",
   "authors": [
-    "Null McNull <nospam@nowhere.com>"
+    "Null McNull <noreplies@hotmail.com>"
   ],
-  "description": "",
-  "main": "",
+  "description": "Create multiple replaceable content holders in your main markup layout and enable other views to _fill in_ these sections at runtime",
+  "main": "src/angular-content-holder/angular-content-holder.js",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/McNull/angular-content-holder",
   "ignore": [
     "**/.*",
     "node_modules",

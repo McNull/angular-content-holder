@@ -1,5 +1,7 @@
 (function (angular) {
 
+  'use strict';
+  
   var ch = angular.module('contentHolder', []);
 
   ch.constant('contentHolderConfig', {
